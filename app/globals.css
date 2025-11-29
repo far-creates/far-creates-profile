@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #361708;
+  --color-accent: #a47764;
+  --font-primary: var(--font-primary);
+  --font-mono: var(--font-geist-mono);
+  --font-meow: var(--font-meow-script);
+}
+
+@media() {
+}
+
+body {
+  background: linear-gradient(309deg, #e9e5e4 29.8%, #d3c2b6 71.24%);
+}
