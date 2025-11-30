@@ -12,11 +12,11 @@ export default function EngLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={` max-w-360 m-auto`}>
+    <div className=" font-primary bg-white">
+      <div className="max-w-360 m-auto">
         <SiteHeader />
         {children}
-      </body>
-    </html>
+      </div>
+    </div>
   );
 }

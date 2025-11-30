@@ -3,12 +3,53 @@
 @theme inline {
   --color-primary: #361708;
   --color-accent: #a47764;
+  --color-bg-1: #d3c2b6;
   --font-primary: var(--font-primary);
   --font-mono: var(--font-geist-mono);
   --font-meow: var(--font-meow-script);
+  --animate-slide-right: slideRight 1.5s ease-in-out forwards;
+  --animate-slide-left: slideLeft 1.5s ease-in-out forwards;
+  --animate-fade-in: fadeIn 1.5s ease-in forwards;
+  --animate-fade-out: fadeOut 1.5s ease-in forwards;
 }
 
 @media() {
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
 }
 
 body {

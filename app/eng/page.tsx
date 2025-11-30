@@ -4,7 +4,7 @@ export default function EngHome() {
   return (
     <div className="font-primary">
       <main className="">
-        <h1>This is h1</h1>
+        <Hero />
       </main>
     </div>
   );

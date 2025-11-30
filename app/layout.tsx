@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${primary.variable} ${geistMono.variable} ${meowScript.variable} antialiased max-w-7xl m-auto`}
+        className={`${primary.variable} ${geistMono.variable} ${meowScript.variable} antialiased`}
       >
         {children}
       </body>
